@@ -1,4 +1,6 @@
 MyTTS219::Application.routes.draw do
+  resources :tasks
+
   resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
